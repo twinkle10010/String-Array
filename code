@@ -1,0 +1,11 @@
+字符串转数组（java）方法
+
+public void test() throws Exception{	
+		Map<String,Object> map = new HashMap<String, Object>();
+		PageData pd = new PageData();
+		PageData pd2 = new PageData();
+		pd = this.getPageData();
+		String str = "0,1,2,3,4,5,";
+		String[] arr = str.split(","); // 用,分割
+		System.out.println(Arrays.toString(arr)); // [0, 1, 2, 3, 4, 5]		
+	}
